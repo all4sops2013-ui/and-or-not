@@ -6,3 +6,16 @@ if values == 4 or values == 2:
     print("this is a boolean value")
 else:
     print("not a boolean value")
+
+
+
+# task 2
+
+# Write a Python program to show how the logical not operator is used to reverse conditions and check whether values are different.
+
+num_1 = 10
+num_2 = 3
+if not(num_1 - num_2 == 7):
+    print("The difference between num_1 and num_2 is NOT 7")
+elif not(num_1 % num_2 == 0):
+    print("The answer for num_1 and num_2 is NOT equal to 0")
